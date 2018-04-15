@@ -7,8 +7,5 @@
     "start": "node app/app.js"
   },
   "author": "Ray Villalobos",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.16.3"
-  }
+  "license": "MIT"
 }
