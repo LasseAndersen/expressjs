@@ -1,12 +1,15 @@
-var express = require('express');
+var express = require ('express');
+
 var app = express();
 
-app.get('/', function(req, res) {
-  res.send('<h1>Roux Academy Meetups</h1>');
+app.get('/', function(request, response)
+{
+response.send('<h1>Roux Acadamy Meetups</h1>');
 });
 
-var server = app.listen(3000, function() {
-  console.log('Listening on port 3000');
+var server = app.listen(3000, function()
+{
+console.log('listening on port 3000');
 });
 
 // var http = require('http');
